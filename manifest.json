@@ -10,7 +10,7 @@
     "url": "https://github.com/khlieng/dispatch",
     "upstream": {
         "license": "AGPL-3.0-only",
-        "demo": "https://demo.example.com",
+        "demo": "https://dispatch.khlieng.com/",
         "code": "https://github.com/khlieng/dispatch"
     },
     "license": "AGPL-3.0-only",
