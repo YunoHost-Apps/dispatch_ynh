@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Web-based IRC client in Go
+Web-based IRC graphical client
 
 **Shipped version:** 0.7~ynh1
 

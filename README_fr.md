@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-
+Client graphique IRC
 
 **Version incluse :** 0.7~ynh1
 
