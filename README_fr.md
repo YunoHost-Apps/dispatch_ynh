@@ -15,7 +15,7 @@ Client graphique IRC
 
 **Version incluse :** 0.7~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://dispatch.khlieng.com/
 
 ## Captures d'écran
 

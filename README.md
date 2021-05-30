@@ -19,7 +19,7 @@ Web-based IRC graphical client
 
 **Shipped version:** 0.7~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://dispatch.khlieng.com/
 
 ## Screenshots
 
