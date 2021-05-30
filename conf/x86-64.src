@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/khlieng/dispatch/releases/download/v0.7/dispatch_0.7_linux_x64.tar.gz
+SOURCE_SUM=7a94cb965de08919a32523116265e7facb69deaa6cfc916adbb34f4083f9e1d9
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=
