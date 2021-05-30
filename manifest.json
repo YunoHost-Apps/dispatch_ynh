@@ -3,8 +3,8 @@
     "id": "dispatch",
     "packaging_format": 1,
     "description": {
-        "en": "Web-based IRC client in Go",
-        "fr": ""
+        "en": "Web-based IRC graphical client",
+        "fr": "Client graphique IRC"
     },
     "version": "0.7~ynh1",
     "url": "https://github.com/khlieng/dispatch",
@@ -30,12 +30,6 @@
                 "name": "domain",
                 "type": "domain",
                 "example": "domain.org"
-            },
-            {
-                "name": "path",
-                "type": "path",
-                "example": "/dispatch",
-                "default": "/"
             },
             {
                 "name": "is_public",
