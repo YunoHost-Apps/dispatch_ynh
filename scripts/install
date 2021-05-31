@@ -120,7 +120,8 @@ yunohost service add $app --description="Web-based IRC client in Go" --log="/var
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action=start --log_path=systemd --timeout="60"
+ynh_systemd_action --service_name=$app --action=start --log_path=systemd
+sleep 60
 
 #=================================================
 # SETUP SSOWAT
