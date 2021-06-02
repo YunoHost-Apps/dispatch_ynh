@@ -98,7 +98,7 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Modifying a config file..." --weight=1
 
-ynh_add_config --template="../conf/config.default.toml" --destination="$final_path//.dispatch/config.toml"
+ynh_add_config --template="../conf/config.default.toml" --destination="$final_path/.dispatch/config.toml"
 
 #=================================================
 # SETUP SYSTEMD
@@ -120,7 +120,7 @@ yunohost service add $app --description="Web-based IRC client in Go" --log="/var
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action=start --log_path=systemd --timeout="60"
+ynh_systemd_action --service_name=$app --action=start --log_path="systemd"
 
 #=================================================
 # SETUP SSOWAT
