@@ -94,16 +94,6 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=3
 ynh_add_nginx_config
 
 #=================================================
-# SPECIFIC SETUP
-#=================================================
-# MODIFY A CONFIG FILE
-#=================================================
-# ynh_script_progression --message="Modifying a config file..." --weight=1
-
-# mkdir "$final_path/.dispatch"
-# ynh_add_config --template="../conf/config.default.toml" --destination="$final_path/.dispatch/config.toml"
-
-#=================================================
 # SETUP SYSTEMD
 #=================================================
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
