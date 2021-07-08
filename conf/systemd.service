@@ -6,7 +6,7 @@ After=network-online.target
 [Service]
 Type=simple
 User=__APP__
-Group=nogroup
+Group=__APP__
 ExecStart=__FINALPATH__/dispatch
 Restart=on-failure
 RestartSec=5
