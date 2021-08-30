@@ -79,6 +79,8 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 ynh_setup_source --dest_dir=$final_path --source_id="$architecture"
 
 mkdir "$final_path/.dispatch"
+ynh_add_config --template="../conf/config.default.toml" --destination="$final_path/.dispatch/config.toml"
+
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
@@ -90,15 +92,6 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=3
 
 # Create a dedicated nginx config
 ynh_add_nginx_config
-
-#=================================================
-# SPECIFIC SETUP
-#=================================================
-# MODIFY A CONFIG FILE
-#=================================================
-ynh_script_progression --message="Modifying a config file..." --weight=1
-
-ynh_add_config --template="../conf/config.default.toml" --destination="$final_path/.dispatch/config.toml"
 
 #=================================================
 # SETUP SYSTEMD
@@ -121,6 +114,8 @@ ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
 ynh_systemd_action --service_name=$app --action=start --log_path="systemd"
+
+#sleep 60
 
 #=================================================
 # SETUP SSOWAT
