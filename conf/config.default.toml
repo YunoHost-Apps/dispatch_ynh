@@ -1,5 +1,5 @@
 # IP address to listen on, leave empty to listen on anything
-address = "127.0.0.1"
+address = ""
 port = __PORT__
 # Run ident daemon on port 113
 identd = true
@@ -83,10 +83,10 @@ delete_after = "30m"
 
 [proxy]
 # Dispatch will make all outgoing connections through the specified proxy when enabled
-enabled = false
+enabled = true
 protocol = "socks5"
 host = "127.0.0.1"
-port = 1080
+port = __PORT__
 username = ""
 password = ""
 
