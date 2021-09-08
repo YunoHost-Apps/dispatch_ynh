@@ -1,12 +1,12 @@
 [Unit]
 Description=Dispatch IRC client
-Wants=network-online.target
-After=network-online.target
+After=network.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
+WorkingDirectory=__FINALPATH__/
 ExecStart=__FINALPATH__/dispatch -a 127.0.0.1 -p __PORT__
 Restart=on-failure
 RestartSec=5
@@ -14,4 +14,4 @@ StartLimitInterval=60s
 StartLimitBurst=3
 
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
