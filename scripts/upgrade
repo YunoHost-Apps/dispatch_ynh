@@ -109,7 +109,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="Web-based IRC client in Go" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Web-based IRC client" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
