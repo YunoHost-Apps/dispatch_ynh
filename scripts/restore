@@ -81,14 +81,14 @@ systemctl enable $app.service --quiet
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="Web-based IRC client in Go" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Web-based IRC client" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression --message="Starting a systemd service..." --weight=1
 
-ynh_systemd_action --service_name=$app --action=start --log_path=systemd
+ynh_systemd_action --service_name=$app --action=start --log_path=systemd --line_match="Listening on port"
 
 #=================================================
 # GENERIC FINALIZATION

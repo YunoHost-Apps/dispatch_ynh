@@ -105,7 +105,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
 
-yunohost service add $app --description="Web-based IRC client in Go" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Web-based IRC client" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
@@ -113,9 +113,7 @@ yunohost service add $app --description="Web-based IRC client in Go" --log="/var
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action=start --log_path="systemd"
-
-#sleep 60
+ynh_systemd_action --service_name=$app --action=start --log_path="systemd" --line_match="Listening on port"
 
 #=================================================
 # SETUP SSOWAT

@@ -15,7 +15,7 @@
     },
     "license": "AGPL-3.0-only",
     "maintainer": {
-        "name": ""
+        "name": "eric_G"
     },
     "requirements": {
         "yunohost": ">= 4.2.4"
@@ -28,8 +28,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "is_public",
