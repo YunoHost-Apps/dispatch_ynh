@@ -13,9 +13,6 @@ source /usr/share/yunohost/helpers
 # MANAGE SCRIPT FAILURE
 #=================================================
 
-ynh_clean_setup () {
-	ynh_clean_check_starting
-}
 # Exit if an error occurs during the execution of the script
 ynh_abort_if_errors
 
@@ -99,6 +96,14 @@ ynh_add_nginx_config
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
 
 ynh_add_systemd_config
+
+#=================================================
+# SETUP LOGROTATE
+#=================================================
+ynh_script_progression --message="Configuring log rotation..." --weight=1
+
+# Use logrotate to manage application logfile(s)
+ynh_use_logrotate
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST

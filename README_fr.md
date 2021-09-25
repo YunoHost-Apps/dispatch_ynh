@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Client graphique IRC
 
-**Version incluse :** 0.7~ynh1
+**Version incluse :** 0.7~ynh2
 
 **Démo :** https://dispatch.khlieng.com/
 
