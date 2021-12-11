@@ -6,7 +6,7 @@
         "en": "Web-based IRC graphical client",
         "fr": "Client graphique IRC"
     },
-    "version": "0.7~ynh2",
+    "version": "0.7~ynh3",
     "url": "https://github.com/khlieng/dispatch",
     "upstream": {
         "license": "AGPL-3.0-only",
