@@ -1,3 +1,5 @@
+Web-based IRC graphical client
+
 ### Features
 
 - Searchable history
