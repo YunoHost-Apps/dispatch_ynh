@@ -29,7 +29,8 @@ Web-based IRC graphical client
 - Client certificates
 
 
-**Version incluse :** 0.7~ynh4
+**Version incluse :** 0.7~ynh4
+
 
 **Démo :** https://dispatch.khlieng.com/
 
