@@ -17,20 +17,8 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Web-based IRC graphical client
 
-### Features
 
-- Searchable history
-- Persistent connections
-- Multiple servers and users
-- Automatic HTTPS through Let's Encrypt
-- Single binary with no dependencies
-- DCC downloads
-- SASL
-- Client certificates
-
-
-**Version incluse :** 0.7~ynh4
-
+**Version incluse :** 0.7~ynh4
 
 **Démo :** https://dispatch.khlieng.com/
 
