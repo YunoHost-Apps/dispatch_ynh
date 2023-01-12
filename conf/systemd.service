@@ -1,5 +1,5 @@
 [Unit]
-Description=Dispatch IRC client
+Description=Dispatch: IRC client
 After=network.target
 
 [Service]
