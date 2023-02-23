@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Dispatch pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
+
 [![Installer Dispatch avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dispatch)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Dispatch rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Dispatch rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Web-based IRC graphical client
 
@@ -22,13 +23,13 @@ Web-based IRC graphical client
 
 **Démo :** https://dispatch.khlieng.com/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Dispatch](./doc/screenshots/screenshot.png)
+![Capture d’écran de Dispatch](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Dépôt de code officiel de l'app : <https://github.com/khlieng/dispatch>
+* Dépôt de code officiel de l’app : <https://github.com/khlieng/dispatch>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_dispatch>
 * Signaler un bug : <https://github.com/YunoHost-Apps/dispatch_ynh/issues>
 
@@ -44,4 +45,4 @@ ou
 sudo yunohost app upgrade dispatch -u https://github.com/YunoHost-Apps/dispatch_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
