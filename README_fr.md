@@ -29,7 +29,6 @@ Web-based IRC graphical client
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://github.com/khlieng/dispatch>
 * Dépôt de code officiel de l’app : <https://github.com/khlieng/dispatch>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_dispatch>
 * Signaler un bug : <https://github.com/YunoHost-Apps/dispatch_ynh/issues>
