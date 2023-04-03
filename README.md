@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Dispatch for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Working status](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Working status](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
+
 [![Install Dispatch with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dispatch)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -16,17 +17,6 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 
 Web-based IRC graphical client
-
-### Features
-
-- Searchable history
-- Persistent connections
-- Multiple servers and users
-- Automatic HTTPS through Let's Encrypt
-- Single binary with no dependencies
-- DCC downloads
-- SASL
-- Client certificates
 
 
 **Shipped version:** 0.7~ynh4
