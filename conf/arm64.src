@@ -1,5 +1,0 @@
-SOURCE_URL=https://github.com/khlieng/dispatch/releases/download/v0.7/dispatch_0.7_linux_arm64.tar.gz
-SOURCE_SUM=bf68249f5bbcaafa50f4b72c8401dfe858405705f76985d88d2460737235dca3
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=false
