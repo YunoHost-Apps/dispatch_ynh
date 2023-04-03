@@ -13,7 +13,6 @@ maintainers = ["eric_G"]
 license = "AGPL-3.0-only"
 demo = "https://dispatch.khlieng.com/"
 code = "https://github.com/khlieng/dispatch"
-website = "https://github.com/khlieng/dispatch"
 
 [integration]
 yunohost = ">= 11.1.16"
