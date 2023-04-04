@@ -46,9 +46,9 @@ ram.runtime = "50M"
         armhf.sha256 = "07c678c29dea633fe7e372c48cebe1876bfc43b0f7abbd88a55318587994750c"
 
         autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.arm64 = "dispatch_*_linux_arm64.tar.gz"
-        autoupdate.asset.amd64 = "dispatch_*_linux_x64.tar.gz"
-        autoupdate.asset.armhf = "dispatch_*_linux_armv7.tar.gz"
+        autoupdate.asset.arm64 = "dispatch_.*_linux_arm64.tar.gz"
+        autoupdate.asset.amd64 = "dispatch_.*_linux_x64.tar.gz"
+        autoupdate.asset.armhf = "dispatch_.*_linux_armv7.tar.gz"
 
     [resources.ports]
 
