@@ -29,6 +29,14 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=3
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
+# Create a dedicated systemd config
+ynh_add_systemd_config
+
+# Use logrotate to manage application logfile(s)
+ynh_use_logrotate
+
+yunohost service add $app --description="Web-based IRC client" --log="/var/log/$app/$app.log"
+
 #=================================================
 # SPECIFIC SETUP
 #=================================================
@@ -40,31 +48,6 @@ ynh_add_config --template="../conf/config.default.toml" --destination="$install_
 
 chmod 400 "$install_dir/.dispatch/config.toml"
 chown $app:$app "$install_dir/.dispatch/config.toml"
-
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Configuring a systemd service..." --weight=1
-
-# Create a dedicated systemd config
-ynh_add_systemd_config
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Configuring log rotation..." --weight=1
-
-# Use logrotate to manage application logfile(s)
-ynh_use_logrotate
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
-
-yunohost service add $app --description="Web-based IRC client" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
