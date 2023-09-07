@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Web-based IRC graphical client
 
 
-**Version incluse :** 0.7~ynh4
+**Version incluse :** 0.7~ynh5
 
 **Démo :** https://dispatch.khlieng.com/
 
