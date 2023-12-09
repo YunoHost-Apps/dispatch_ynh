@@ -30,7 +30,7 @@ Web-based IRC graphical client
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/khlieng/dispatch>
-* YunoHost documentation for this app: <https://yunohost.org/app_dispatch>
+* YunoHost Store: <https://apps.yunohost.org/app/dispatch>
 * Report a bug: <https://github.com/YunoHost-Apps/dispatch_ynh/issues>
 
 ## Developer info
