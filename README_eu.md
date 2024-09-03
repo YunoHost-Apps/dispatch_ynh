@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Dispatch YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/dispatch.svg)](https://ci-apps.yunohost.org/ci/apps/dispatch/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
 
 [![Instalatu Dispatch YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dispatch)
 

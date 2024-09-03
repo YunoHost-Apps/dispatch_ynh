@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Dispatch pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/dispatch.svg)](https://dash.yunohost.org/appci/app/dispatch) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/dispatch.svg)](https://ci-apps.yunohost.org/ci/apps/dispatch/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dispatch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dispatch.maintain.svg)
 
 [![Installer Dispatch avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dispatch)
 
